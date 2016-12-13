@@ -34,7 +34,9 @@ ensure that:
 - A user exists with the specified name
 - The user can access the specified database with the specified password
 
+`
 	$ oc new-app -e MONGODB_USER=mlbparks,MONGODB_PASSWORD=mlbparks,MONGODB_DATABASE=mlbparks,MONGODB_ADMIN_PASSWORD=mlbparks registry.access.redhat.com/rhscl/mongodb-26-rhel7 --name=mongodb
+`
 
 ###**Wiring the JBoss EAP pod(s) to communicate with our MongoDB database**
 
