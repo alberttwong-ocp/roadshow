@@ -32,7 +32,7 @@ Now we have access to the application template in our project.  As a side note, 
 
 Are you ready for the magic command?  Here it is:
 
-	$ oc new-app mlbparks
+	$ oc new-app mlbparks-eap
 
 You will see the following output:
 
@@ -76,6 +76,6 @@ them to develop new features, microservices, fix bugs, and more.
 As a final exercise, look at the template that was used to create the
 resources for our *mlbparks* application.
 
-    https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template.json
+    https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template-eap.json
 
 **End of Lab 10**
